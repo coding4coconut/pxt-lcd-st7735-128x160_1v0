@@ -1,5 +1,5 @@
 {
-    "name": "LCD-ST7735-128x160_1v0",
+    "name": "lcd st7735 128x160_1v0",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -17,5 +17,5 @@
     "supportedTargets": [
         "calliopemini"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
