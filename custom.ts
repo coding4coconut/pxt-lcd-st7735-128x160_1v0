@@ -1,8 +1,11 @@
 
-//This package brings along function to handle a LCD-Display with a ST7735 Chip along with the calliope mini. 
+// This package brings along function to handle a LCD-Display with a ST7735 Chip along with the calliope mini. 
 // Please pay special attention to the usage ot the SPI-interface in the Readme-file.
-//The core of this LCD-Dirver results from original code from https://github.com/joy-it/pxt-RB-TFT1.8
-//Thanks to joy-it for the great work! MIT License Copyright (c) 2021 Joy-IT powered by SIMAC Electronics GmbH
+// The core of this LCD-Dirver results from original code from https://github.com/joy-it/pxt-RB-TFT1.8
+// Thanks to joy-it for the great work!
+// MIT License Copyright (c) 2021  Joy-IT powered by SIMAC Electronics GmbH, Franz Stolz
+// MIT License Copyright (c) 2222  Franz Stolz
+
 
 /**
  * Colors
@@ -349,7 +352,7 @@ namespace RBTFT18 {
     //% weight=70
     //% x.min=1 x.max=128
     //% y.min=1 y.max=160
-    //% zoom.min=1 zoom.max=5
+    //% zoom.min=1 zoom.max=5 zoom.defl=1
     export function showString(text: string, x: number, y: number, zoom: number, color: Color, bgColor: Color): void {
         let hiColor = (color >> 8) % 256
         let loColor = color % 256
