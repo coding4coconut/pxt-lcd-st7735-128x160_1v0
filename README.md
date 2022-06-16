@@ -150,15 +150,18 @@ RBTFT18.turnOn()
 ## Set size of display in pixel
 The size of the display in horizontal direction varies between 128 an 132 pixels - depending on the used LCD-panel 
 The size of the display in vertical direction varies between 160 an 162 pixels - depending on the used LCD-panel 
+ 
 
 ```typescript
 // Set Display Size
-RBTFT18.setDisplaySize(0, 0)
+// Set the display size to 130 x 160 pixel - horizontal: 130px vertical: 160px
+RBTFT18.setDisplaySize(130, 160)
 ```
+
 ## Set Pixel-Offset of display
 In case the Display does not start to draw the first pixel at X=0 / Y=0, you can adjust a offset for X and Y direction.
 This could happen, if the outer pixels of the LCD-panel are not connected or hidden by a covering frame that covers the edge of the LCD panel
-The offset is statet as number of pixels
+The offset is statet as number of pixels.
 
 ```typescript
 // Set Pixel Offset
@@ -181,12 +184,7 @@ Um dieses Repository in MakeCode zu bearbeiten.
 * klicke auf **Importieren** und dann auf **Importiere URL**
 * füge **https://github.com/coding4coconut/pxt-lcd-st7735-128x160_1v0** ein und klicke auf Importieren
 
-## Blockvorschau
 
-Dieses Bild zeigt den Blockcode vom letzten Commit im Master an.
-Die Aktualisierung dieses Bildes kann einige Minuten dauern.
-
-![Eine gerenderte Ansicht der Blöcke](https://github.com/coding4coconut/pxt-lcd-st7735-128x160_1v0/raw/master/.github/makecode/blocks.png)
 
 #### Metadaten (verwendet für Suche, Rendering)
 
