@@ -237,7 +237,7 @@ namespace RBTFT18 {
    /*
      * Set Pixel Offset of LCD-Display
      */
-    //% block="Set Pixel Offset at x:%x|y:%y "
+    //% block="Set Pixel Offset x:%x|y:%y "
     //% x.min=0 x.max=128
     //% y.min=0 y.max=160
     //% weight=50
@@ -247,7 +247,7 @@ namespace RBTFT18 {
     }
 
     
-     //% block="Set Display Size at x:%x|y:%y "
+     //% block="Set Display Size x:%x|y:%y "
     //% x.min=0 x.max=132
     //% y.min=0 y.max=162
     //% weight=45
