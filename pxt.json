@@ -1,5 +1,6 @@
 {
     "name": "lcd st7735 128x160_1v0",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "core": "*",
