@@ -39,7 +39,7 @@ Hier ein Beispiel:
 The display needs to be connected with seven pins to the Micro:bit:
 
 | LCD Modul     | Calliope     |
-| ------------- |:--- ---------:|
+| ------------- |:------------:|
 | VCC           | 3V           |
 | GND           | GND          |
 | CLK           | P0           |
