@@ -54,7 +54,7 @@ enum Color {
 //% color="#275C6B" icon="\uf26c" weight=95 block="LCD1.8-ST7735"
 namespace RBTFT18 {
     // Display commands & constants
-    let TFTWIDTH = 128
+    let TFTWIDTH = 130
     let TFTHEIGHT = 160
     let PxlOffsetX = 2
     let PxlOffsetY = 1

@@ -1,6 +1,6 @@
 pins.spiPins(DigitalPin.P3, DigitalPin.C16, DigitalPin.P0)
 RBTFT18.init()
-RBTFT18.SetDisplayOffset(2, 1)
+RBTFT18.SetDisplayOffset(0, 1)
 RBTFT18.clearScreen()
 RBTFT18.showString(
 "HELLO S U N !",
