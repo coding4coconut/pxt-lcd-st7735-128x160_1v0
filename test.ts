@@ -17,6 +17,14 @@ RBTFT18.drawCircle(
 30,
 Color.Yellow
 )
+RBTFT18.showString(
+"Happy DAY !",
+30,
+100,
+1,
+Color.Green,
+Color.Black
+)
 basic.forever(function () {
 	
 })
