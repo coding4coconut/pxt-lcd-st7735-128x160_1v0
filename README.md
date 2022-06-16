@@ -22,11 +22,11 @@ Insbesondere dann, wenn die SPI-Signalleitung auf Pins liegen, welche auch von d
 Selbst das Ausschalten der LED-Matrix führte zu keiner einwandfreien SPI-Kommunikation.
 
 Um einen einwandfreier Betrieb der SPI-Schnittstelle zusammen mit dem LDC-Display zu ermöglichen, war es notwendig, folgende SPI-Belegung vorzunehmen:
-    - SCK -> Pin P0 (SPI SCK)
-    - SDA -> Pin P3 (SPI MOSI)  
-    - CS  -> Pin P2 (Chipselect Signalleitung)
-    - DC  -> Pin P1 (Data/Command Signalleitung)
-    - SPI MISO -> belibig (da diese pxt-Paket keine Data-Read-Funktion des Displays benutzt)
+    * SCK -> Pin P0 (SPI SCK)
+    * SDA -> Pin P3 (SPI MOSI)  
+    * CS  -> Pin P2 (Chipselect Signalleitung)
+    * DC  -> Pin P1 (Data/Command Signalleitung)
+    * SPI MISO -> belibig (da diese pxt-Paket keine Data-Read-Funktion des Displays benutzt)
 
 Für einen einwandfreien Betrieb ist es daher notwendig, die SPI-PINs in makecode im Start-Block zu initialisieren (vor der ersten Verwendung eines Blocks aus dieser PXT-Erweiterung).
 Hier ein Beispiel:
