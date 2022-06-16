@@ -54,10 +54,12 @@ enum Color {
 //% color="#275C6B" icon="\uf26c" weight=95 block="LCD1.8-ST7735"
 namespace RBTFT18 {
     // Display commands & constants
+    // width could vary between 128 and 132 - depending on the used LCD-Display (waveshare 1.8 LCD-Module: 130 pixel)
+    // width could vary between 160 and 162 - depending on the used LCD-Display (waveshare 1.8 LCD-Module: 160 pixel)
     let TFTWIDTH = 130
     let TFTHEIGHT = 160
-    let PxlOffsetX = 2
-    let PxlOffsetY = 1
+    let PxlOffsetX = 0
+    let PxlOffsetY = 0
 
     /**
      * TFT Commands
@@ -243,6 +245,17 @@ namespace RBTFT18 {
         PxlOffsetX = x
         PxlOffsetX = y
     }
+
+    
+     //% block="Set Display Size at x:%x|y:%y "
+    //% x.min=0 x.max=132
+    //% y.min=0 y.max=162
+    //% weight=45
+    export function SetDisplayRange(x: number, y: number): void {
+        TFTWIDTH = x
+        TFTHEIGHT = y
+    }   
+    
     /*
      * Draw a straight line from one point to another
      */
@@ -406,6 +419,7 @@ namespace RBTFT18 {
     export function clearScreen(): void {
         drawRectangle(0, 0, TFTWIDTH, TFTHEIGHT, 0)
     }
+
 
     //% block="Turn display off"
     //% weight=60
