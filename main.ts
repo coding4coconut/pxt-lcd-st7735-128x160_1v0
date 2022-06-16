@@ -15,9 +15,9 @@ Color.Black
 )
 basic.pause(1000)
 RBTFT18.drawCircle(
+65,
+50,
 30,
-40,
-40,
 Color.Yellow
 )
 basic.pause(500)
