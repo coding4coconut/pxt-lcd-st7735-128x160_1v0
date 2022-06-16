@@ -5,10 +5,10 @@
 
 Dieses PXT-Paket funktioniert als LCD-Display Treiber für LCD-Displays basierend auf dem ST7735-Chipsatz.
 Ich verwende dazu das LCD-Display "1.8inch LCD Module" von waveshare. Wichtige Eckdaten des Displays:
-    Interface: SPI
-    LCD type: TFT
-    Controller: ST7735S
-    Resolution: 128*160 (Pixel)
+   * Interface: SPI
+   * LCD type: TFT
+   * Controller: ST7735S
+   * Resolution: 128*160 (Pixel)
 
 Diese Erweiterung basiert auf einer microbit-Erweiterung von joy-it - https://github.com/joy-it/pxt-RB-TFT1.8  
 Diese microbit-Erweiterung läuft jedoch nicht auf dem Calliope mini.
