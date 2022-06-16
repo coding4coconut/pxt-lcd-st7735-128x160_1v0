@@ -241,7 +241,7 @@ namespace RBTFT18 {
     //% x.min=0 x.max=128
     //% y.min=0 y.max=160
     //% weight=50
-    export function SetDisplayOffset(x: number, y: number): void {
+    export function setDisplayOffset(x: number, y: number): void {
         PxlOffsetX = x
         PxlOffsetX = y
     }
@@ -251,7 +251,7 @@ namespace RBTFT18 {
     //% x.min=0 x.max=132
     //% y.min=0 y.max=162
     //% weight=45
-    export function SetDisplayRange(x: number, y: number): void {
+    export function setDisplaySize(x: number, y: number): void {
         TFTWIDTH = x
         TFTHEIGHT = y
     }   

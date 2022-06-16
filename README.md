@@ -147,15 +147,23 @@ You turn the display on again and enable the output from the frame memory. The f
 RBTFT18.turnOn()
 ```
 
+## Set size of display in pixel
+The size of the display in horizontal direction varies between 128 an 132 pixels - depending on the used LCD-panel 
+The size of the display in vertical direction varies between 160 an 162 pixels - depending on the used LCD-panel 
+
+```typescript
+// Set Display Size
+RBTFT18.setDisplaySize(0, 0)
+```
 ## Set Pixel-Offset of display
 In case the Display does not start to draw the first pixel at X=0 / Y=0, you can adjust a offset for X and Y direction.
+This could happen, if the outer pixels of the LCD-panel are not connected or hidden by a covering frame that covers the edge of the LCD panel
 The offset is statet as number of pixels
 
 ```typescript
 // Set Pixel Offset
-RBTFT18. SetDisplayOffset(0, 0)
+RBTFT18.setDisplayOffset(0, 0)
 ```
-
 ## Als Erweiterung verwenden
 
 Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
