@@ -31,6 +31,9 @@ Um einen einwandfreier Betrieb der SPI-Schnittstelle zusammen mit dem LDC-Displa
 Für einen einwandfreien Betrieb ist es daher notwendig, die SPI-PINs in makecode im Start-Block zu initialisieren (vor der ersten Verwendung eines Blocks aus dieser PXT-Erweiterung).
 Hier ein Beispiel:
 
+![PXT-Init-SPI-Signallines](https://user-images.githubusercontent.com/91993589/174061301-2d2bacc9-7f0c-4daf-8586-45e0fc8e6a90.png)
+
+
 ## Connection
 
 The display needs to be connected with seven pins to the Micro:bit:
