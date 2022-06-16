@@ -36,7 +36,7 @@ Hier ein Beispiel:
 
 ## Connection
 
-The display needs to be connected with seven pins to the Micro:bit:
+The display needs to be connected with seven pins to the Calliope mini:
 
 | LCD Modul     | Calliope     |
 | ------------- |:------------:|
